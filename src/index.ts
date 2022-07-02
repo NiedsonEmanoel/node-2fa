@@ -25,8 +25,8 @@ export function generateSecret(options?: Options) {
   const uri = `otpauth://totp/${config.name}${config.account}`
 
   return {
-      secret,
-      'randomBytes': bin,
+    secret,
+    'randomBytes': bin,
     uri: `${uri}${query}`,
     uriQR: `${uri}${encodedQuery}`,
     qr: `https://chart.googleapis.com/chart?chs=166x166&chld=L|0&cht=qr&chl=${uri}${encodedQuery}`

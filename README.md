@@ -1,4 +1,4 @@
-# node-2fa
+# node-2fa Enhanced
 
 Easy 2-Factor Integration For Node.js
 
